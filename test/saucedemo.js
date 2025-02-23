@@ -25,7 +25,7 @@ async function saucedemoTest() {
   ];
       //// Iterate for each browser in the `browsers` array.
       browsers.forEach(async (browser) => {
-        describe("Saucedemo Login Test", function () {
+        describe("Saucedemo Test", function () {
           let driver;
           let cookies; // Variable for storing cookies after login
           this.timeout(100000); // Set timeout for the entire test suite
