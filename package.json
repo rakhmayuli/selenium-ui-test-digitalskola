@@ -1,5 +1,21 @@
 {
   "dependencies": {
     "selenium-webdriver": "^4.28.1"
-  }
+  },
+  "name": "selenium-ui-test-digitalskola",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^11.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
