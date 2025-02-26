@@ -1,0 +1,84 @@
+{
+    "baseUrl": "https://www.saucedemo.com",
+
+    "validUser": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+
+    "invalidUser": {
+      "username": "wrong_username",
+      "password": "wrong_password",
+      "emptyUser": "",
+      "emptyPass": "",
+      "userLocked": "locked_out_user"
+    },
+
+    "expectedLoginError": {
+      "notMatch": "Epic sadface: Username and password do not match any user in this service",
+      "emptyUser": "Epic sadface: Username is required",
+      "emptyPass": "Epic sadface: Password is required",
+      "userLocked": "Epic sadface: Sorry, this user has been locked out."
+    },
+
+    "expectedTitle": {
+        "logoTitle": "Swag Labs",
+        "cartTitle": "Your Cart",
+        "checkoutInformationTitle": "Checkout: Your Information",
+        "checkoutOverviewTitle": "Checkout: Overview",
+        "checkoutCompleteTitle": "Checkout: Complete!"
+    },
+
+    "expectedText": {
+      "priceElement": "$",
+      "completeOrder": "Thank you for your order!"  
+    },
+
+    "informationCheckout": {
+      "errorFirstName" : "Error: First Name is required",
+      "errorLastName" : "Error: Last Name is required",
+      "errorPostalCode" : "Error: Postal Code is required"
+    },
+    
+    "messages": {
+        "invalidlogin": "Message does not include 'Epic sadface: Username and password do not match any user in this service' as expected",
+        "emptyUser": "Message does not include 'Epic sadface: Username is required' as expected",
+        "emptyPassword": "Message does not include 'Epic sadface: Password is required' as expected", 
+        "userLocked": "Message does not include 'Epic sadface: Sorry, this user has been locked out.", 
+        "logoError": "Title does not include 'Swag Labs'",
+        "burgerButtonError": "menu burger button is not visible",
+        "cartButtonError": "cart is not visible",
+        "productsListError": "Product list is not displayed",
+        "cartTitleError": "Title does not include 'Your Cart'",
+        "cartItemsError": "items is not found on the cart",
+        "contShoppingBtnError": "button is not found on the cart",
+        "checkoutInformationError": "Title does not include 'Checkout: Your Information'",
+        "cancelButtonError": "cancel Button button is not visible",
+        "checkoutOverviewError": "Title does not include 'Checkout: Overview'",
+        "totalPriceError": "Total price is NOT displayed",
+        "completeTitleError": "Title does not include 'Checkout: Complete!'",
+        "completeError": "Title does not include 'Thank you for your order!'",
+        "errorFirstName": "Message does not include 'Error: First Name is required' as expected",
+        "errorlastName": "Message does not include 'Error: Last Name is required' as expected",
+        "errorPostalCode": "Message does not include 'Error: Postal Code is required"
+
+    },
+
+    "addCart": {
+        "expectedCount": 3
+    },
+
+    "log": {
+      "LoginSuccess": "Testing Login Success!",
+      "LoginFailed": "Testing Login Failed = Success!"
+    },
+
+    "customer" : {
+      "firstName" : "Rakhma",
+      "lastName" : "Yuli",
+      "postalCode" : "23478",
+      "emptyFirstName" : "",
+      "emptyLastName" : "",
+      "emptyPostalCode" : ""
+    }
+  }
